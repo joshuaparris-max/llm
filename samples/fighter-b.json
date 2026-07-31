@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "fighter_name": "Glass Wyrm",
+  "strategy": "Keep distance, punish straight approaches, and duck expected firebolts.",
+  "actions": [
+    {
+      "tick": 1,
+      "action": "cast",
+      "spell": "firebolt",
+      "direction": "left"
+    },
+    {
+      "tick": 2,
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "tick": 3,
+      "action": "duck"
+    },
+    {
+      "tick": 4,
+      "action": "cast",
+      "spell": "snare",
+      "direction": "left"
+    },
+    {
+      "tick": 5,
+      "action": "move",
+      "direction": "left"
+    },
+    {
+      "tick": 6,
+      "action": "cast",
+      "spell": "shield"
+    },
+    {
+      "tick": 7,
+      "action": "attack",
+      "direction": "left"
+    },
+    {
+      "tick": 8,
+      "action": "cast",
+      "spell": "blink",
+      "direction": "down"
+    },
+    {
+      "tick": 9,
+      "action": "cast",
+      "spell": "firebolt",
+      "direction": "left"
+    },
+    {
+      "tick": 10,
+      "action": "block"
+    },
+    {
+      "tick": 11,
+      "action": "move",
+      "direction": "left"
+    },
+    {
+      "tick": 12,
+      "action": "attack",
+      "direction": "left"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "fighter_name": "Iron Psalm",
+  "strategy": "Close carefully, shield if threatened, then strike in melee.",
+  "actions": [
+    {
+      "tick": 1,
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "tick": 2,
+      "action": "move",
+      "direction": "right"
+    },
+    {
+      "tick": 3,
+      "action": "cast",
+      "spell": "shield"
+    },
+    {
+      "tick": 4,
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "tick": 5,
+      "action": "cast",
+      "spell": "firebolt",
+      "direction": "right"
+    },
+    {
+      "tick": 6,
+      "action": "duck"
+    },
+    {
+      "tick": 7,
+      "action": "move",
+      "direction": "up"
+    },
+    {
+      "tick": 8,
+      "action": "cast",
+      "spell": "snare",
+      "direction": "right"
+    },
+    {
+      "tick": 9,
+      "action": "dash",
+      "direction": "right"
+    },
+    {
+      "tick": 10,
+      "action": "attack",
+      "direction": "right"
+    },
+    {
+      "tick": 11,
+      "action": "cast",
+      "spell": "heal"
+    },
+    {
+      "tick": 12,
+      "action": "attack",
+      "direction": "right"
+    }
+  ]
+}
