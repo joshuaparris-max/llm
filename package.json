@@ -1,0 +1,24 @@
+{
+  "name": "llm-gladiator-arena-app",
+  "version": "1.0.0",
+  "description": "A single-page browser app for running deterministic battles between two LLM-written fighter plans.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node qa.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaparris-max/llm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joshuaparris-max/llm/issues"
+  },
+  "homepage": "https://github.com/joshuaparris-max/llm#readme",
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}
